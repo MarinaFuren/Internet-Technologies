@@ -1,0 +1,216 @@
+body {
+    font-size: 14px;
+    font-family: helvetica, arial, sans-serif;
+    letter-spacing: 1px;
+    color: #282828;
+    background-image: url("3.jpg");
+    margin: 35px;
+    padding: 0;
+}
+
+#profileScreenVar, #loginScreenVar, #calculatorScreenVar{
+    display: none;
+}
+
+#loginScreenVar {
+    display: inline;
+}
+
+.column {
+    position: relative;
+    background: #ffffff;
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+    border: 5px solid #909090;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.input {
+    outline: none;
+    display: block;
+    width: 100%;
+    border: 0;
+    margin: 0 0 5px;
+    padding: 5px 5px;
+}
+
+h2.imageHeader {
+    vertical-align: middle;
+    display: inline-block;
+    color: #00B5AD;
+    font-size: 1.714rem;
+}
+
+LoginImage {
+    width: 100px;
+}
+
+button.login{
+    border: 0;
+    background-color: #00B5AD;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 100px;
+    font-size: 20px;
+
+}
+
+#loginError {
+    margin: 10px 0 15px 0;
+    color: #FF0000;
+    font-size: 14px;
+    text-align: center;
+    visibility: hidden;
+}
+
+/* For profile page */
+
+
+p {
+    line-height: 5px;
+    padding-left: 15px;
+}
+
+h1 {
+    color: #4B6E7B;
+    background-color: #69F0CE;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 4px;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.2em;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: dashed;
+    border-right-style: dashed;
+    border-right-width: 0.2em;
+    border-left-width: 0.2em;
+    border-bottom-width: 0.2em;
+    border-top-width: 0.2em;
+    border-left-color: #0F4154;
+    border-right-color: #0F4154;
+    border-top-color: #0F4154;
+    border-bottom-color: #0F4154;
+}
+
+h2.profie {
+    color: #69F0CE;
+    background-color: #0F4154;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 2px;
+    padding-left: 14px;
+}
+
+img {
+    border-style: dashed;
+    border-width: 0;
+    width: 200px ;
+    height: 200px;
+}
+
+a {
+    text-decoration: underline;
+    color: blue;
+    line-height: 25px;
+    padding-left: 15px;
+}
+
+button.nextCalc{
+    position: absolute;
+    border: 0;
+    background-color: transparent;
+    background-image: url("arrow.png");
+    bottom: 0px;
+    right: 30px;
+    color: #69F0CE;
+    cursor: pointer;
+    width: 150px;
+    height: 115px;
+    font-size: 20px;
+
+}
+/* calculator
+ */
+#calcPanel {
+    position: relative;
+    text-align: center;;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.calculator{
+    width: 285px;
+    margin-bottom: 50px;
+    background: #ffffff;
+}
+
+.calculator button {
+    cursor: pointer;
+    background: #ccddff;
+    margin: 3px;
+    width: 65px;
+    height: 40px;
+    color: #282828;
+    border-radius: 3px;
+    font-size: 1.1em;
+    border: 0;
+}
+
+.calculator .eval, .calculator .clear {
+    background: #ff8080;
+}
+
+
+.calculator .screen {
+    margin: 3px 5px 3px 3px;
+    padding: 0;
+    font: bold 14px Arial, sans-serif;
+    height: 40px;
+    width: 280px;
+    float: right;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+.calculator .screen .result{
+    margin: 8px 6px 6px 8px;
+    font: bold 20px Arial, sans-serif;
+    overflow: hidden;
+}
+
+#addMoreCalc {
+    cursor: pointer;
+    background: #ccddff;
+    margin: 0;
+    width: 320px;
+    height: 60px;
+    color: #282828;
+    border-radius: 15px;
+    font-size: 1.1em;
+    border: 0;
+
+}
+
+#addCalPanel {
+    position: relative;
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+}
+
+#bigButtons {
+    width:140px;
+    height:40px;
+    margin-left:0;
+    border-radius:4px;
+}
+

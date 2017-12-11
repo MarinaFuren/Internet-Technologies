@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+body {
+    font-size: 14px;
+    font-family: 'Muli', sans-serif;
+    letter-spacing: 1px;
+    color: #595959;
+    margin: 0;
+    padding: 0;
+}
+
+#mainWindow {
+    padding: 150px;
+}
+.game {
+    position: relative;
+    background: #ffffff;
+    max-width: 400px;
+    width: 100%;
+    border-style: outset;
+    border-radius: 13px;
+    margin: 0 auto;
+    padding: 60px;
+}
+
+.summary {
+    text-align: center;
+    color: #595959;
+    font-size: 1.2em;
+    font-family: 'Muli', sans-serif;
+}
+
+h2 {
+    margin: 20px 30px 50px 40px;
+    color: #3385ff;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.gameButtons {
+    cursor: pointer;
+    padding: 10px 15px;
+    color: #ffffff;
+    width: 130px;
+    background: #3385ff;
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+}
+
+.gameButtons button{
+    border: 50px;
+
+}
+
